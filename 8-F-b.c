@@ -1,0 +1,10 @@
+#include <stdio.h>
+void main()
+{
+	int sub[50],i;
+	for(i=1;i<=50;i++)
+	{
+		sub[i] = i;
+		printf("\n%d",sub[i]);
+	}
+}
